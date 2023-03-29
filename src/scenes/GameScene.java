@@ -21,9 +21,9 @@ public class GameScene {
 
 	    JPanel panel = new JPanel();
 	    panel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
-	    panel.setLayout(new GridLayout(4, 4));
+	    panel.setLayout(new GridLayout(5, 5));
 
-	    for (int i = 0; i < 16; i++) {
+	    for (int i = 0; i < 25; i++) {
 	        JPanel cell = new JPanel();
 	        cell.setBorder(BorderFactory.createLineBorder(java.awt.Color.BLACK));
 	        panel.add(cell);
