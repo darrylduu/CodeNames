@@ -28,6 +28,3 @@ public class Card {
     }
 }
 
-enum CardType {
-    RED, BLUE, NEUTRAL, ASSASSIN
-}
